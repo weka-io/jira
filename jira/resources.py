@@ -889,6 +889,7 @@ resource_class_map = {
     r'securitylevel/[^/]+$': SecurityLevel,
     r'status/[^/]+$': Status,
     r'user\?username.+$': User,
+    r'user\?accountId.+$': User,
     r'version/[^/]+$': Version,
     # GreenHopper specific resources
     r'sprints/[^/]+$': Sprint,
